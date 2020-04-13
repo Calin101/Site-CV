@@ -1,0 +1,170 @@
+/* STYLES GENERAUX */
+*{
+    font-family: 'Noto Sans', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(237, 237, 237);
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    padding: 20px 0px;
+    background-color: rgb(24, 106, 130);
+    box-shadow: 0px 0px 15px #333;
+    border-radius: 20px;
+}
+
+header h1 {
+    color: white;
+    font-size: 1.5em;
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* SECTION */
+
+section{
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px rgb(150, 146, 146);
+    background-color: white;
+    border-radius: 20px;
+}
+
+section h2 {
+    margin: 20px 0;
+    width: 90%;
+    background-color: rgb(24, 106, 130);
+    border-radius: 10px;
+    color: white;
+}
+
+section > div {
+    width: 90%;
+}
+
+
+/* SECTION PROFIL ET CONTACT */
+
+.photo {
+    text-align: center;
+}
+
+.photo img {
+    width: 200px;
+    height: 200px;
+    border: 3px solid white;
+    box-shadow: 0px 0px 10px rgb(119, 119, 119);
+    border-radius: 50%;
+    margin-top: -85px;
+    background-color:rgb(238, 244, 100);
+}
+
+.profil {
+    border-bottom: 1px solid rgb(187, 187, 187);
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.description {
+    margin: 0 0 20px 0;
+    width: 900px;
+}
+
+.contact-info {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.contact-info p:first-child {
+    flex: 0 0 20%;
+}
+.contact-info p:last-child {
+    flex: 0 0 60%;
+}
+
+/* LOGO RESEAUX SOCIAUX*/
+
+.reseaux {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto 0px auto;
+}
+
+.reseaux img{
+    width: 40px;
+    height: 40px;
+}
+
+/* SECTION PROJETS */
+
+.list-project h3 {
+    margin: 10px 0 20px 0;
+}
+
+.list-project ul {
+    margin : 0 0 0 60px;
+}
+
+/* SECTION FORMATION / EXPERIENCES PRO */
+
+.langage {
+    display: flex;
+    justify-content: space-around;
+}
+
+.formation {
+    display: flex;
+    border-bottom: 1px solid rgb(187, 187, 187);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.formation-logo img {
+    width: 100%;
+}
+
+.formation-info {
+    flex: 0 0 70%;
+    margin-left: auto;
+}
+
+.formation-info h3 {
+    font-size:  1.2em;
+}
+
+.formation-info h4 {
+    font-size:  1em;
+    font-weight: normal;
+}
+
+/* SECTION COMPETENCES */
+
+.graph {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+/* SECTION CENTRES D'INTERETS */
+
+.interet {
+    display: flex;
+    justify-content: space-around;
+}
